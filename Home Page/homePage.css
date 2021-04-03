@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+  height: 10000px;
+}
+
+.nav {
+  width: 100%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav-left {
+  display: flex;
+  float: left;
+  margin-left: 100px;
+}
+
+.nav-left img {
+  margin: 20px 50px;
+  height: 50px;
+}
+
+.nav-left ul {
+  display: flex;
+}
+
+.nav-left ul li {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #414141;
+  display: flex;
+  margin: 40px 20px;
+}
+
+.nav-right {
+  float: right;
+  padding: 40px 100px;
+  display: flex;
+  position: relative;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav-right .location {
+  position: relative;
+  right: 240px;
+  color: #414141;
+}
+
+.nav-right img {
+  position: absolute;
+  margin-left: 100px;
+}
+
+.nav-right .down {
+  margin-top: 7px;
+  right: 420px;
+}
+
+.nav-right .search {
+  margin: 0 -100px;
+}
+
+.nav-right button {
+  position: relative;
+  top: -10px;
+  right: 80px;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 8px 30px;
+  background: #5F2EEA;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+
+.content-1 {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.content-left {
+  flex: 1;
+  position: relative;
+  padding-left: 140px;
+  margin-top: 200px;
+}
+
+.content-left p {
+  font-family: 'Mulish', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #A0A3BD;
+  padding-bottom: 25px;
+}
+
+.content-left p.text-down {
+  color: #5F2EEA;
+  font-size: 55px;
+
+}
+
+.content-right {
+  flex: 1;
+  position: relative;
+  margin-right: 130px;
+}
+
+.content-right img {
+  position: relative;
+  width: 107px;
+  height: 352.06px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #A0A3BD;
+  margin: 0 10px;
+}
+
+.img-3 {
+  position: absolute;
+  top: 20px;
+}
+
+.img-2 {
+  position: absolute;
+  top: 60px;
+}
+
+.img-1 {
+  position: absolute;
+  top: 100px;
+  
+}
+
+.content-2 {
+  box-sizing: border-box;
+  position: relative;
+  top: 200px;
+  width: 100%;
+  height: 700px;
+}
+
+.content-2 .showing {
+  display: flex; 
+  justify-content: space-between;
+  margin: 20px 130px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #5F2EEA;
+}
+
+.content-2 .showing .view {
+  font-size: 20px;
+}
+
+.content-2 .showing .borderBottom {
+  position: absolute;
+  border-bottom: 3px solid #5F2EEA;
+  padding-bottom: 10px;
+  padding: 0 50px;
+  font-size: 0px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.card-image1 {
+  margin: 60px 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-2 .card-image1 img {
+  width: 159px;
+  height: 244px;
+  border-radius: 5px;
+}
+
+.content-3 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  margin-top: -90px;
+}
+
+.content-3 .upcoming {
+  display: flex; 
+  justify-content: space-between;
+  margin: 0 130px;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+}
+
+.content-3 .upcoming .view {
+  color: #5F2EEA;
+  font-size: 20px;
+}
+
+.content-3 .month {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 130px;
+}
+
+.content-3 .month p {
+  border: solid 1px #5F2EEA;
+  padding: 10px 35px;
+  border-radius: 4px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5F2EEA;
+}
+
+.content-3 .month p.january {
+  color: white;
+  background-color: #5F2EEA;
+  box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+}
+
+.content-3 .month p:hover {
+  color: white;
+  background-color: #5F2EEA;
+  box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+}
+
+.content-4 {
+  display: flex;
+  margin: 100px 120px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content-4 .card img {
+  width: 159px;
+  height: 244px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.content-4 .card .title {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 18px;
+  color: #14142B;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content-4 .card .genre {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #A0A3BD;
+  margin-bottom: 40px;
+}
+
+.details {
+  border: solid #5F2EEA 1px;
+  font-family: Mulish;
+  font-size: 14px;
+  color: #5F2EEA;
+  padding: 10px 0px;
+  margin: 0 20px;
+  border-radius: 4px;
+}
+
+.details:hover {
+  color: white;
+  background-color: #5F2EEA;
+  box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+}
+
+.content-5 {
+  margin: 0 120px;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  padding: 40px 0;
+  box-sizing: border-box;
+  border-bottom: rgb(241, 241, 241) solid 10px;
+}
+
+
+.content-5 .one {
+  font-size: 24px;
+  color: #4E4B66;
+  margin-bottom: 10px;
+}
+
+.content-5 .two {
+  color: #5F2EEA;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.content-5 input {
+  padding: 10px 30px;
+  border: #5F2EEA solid 1px ;
+  margin: 40px 10px;
+  border-radius: 4px;
+}
+
+.content-5 button {
+  padding: 11px 30px;
+  background: #5F2EEA;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+
+.content-5 ::placeholder {
+  font-family: "Open Sans";
+}
+
+.content-5 .five, .six {
+  font-family: Mulish;
+  font-size: 14px;
+  color: #6E7191;
+}
+
+.content-5 .six {
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  padding: 100px 100px;
+  box-sizing: border-box;
+}
+
+.footer .left,
+.footer .center-left,
+.footer .center-right,
+.footer .right {
+  flex: 1;
+}
+
+.footer .center-left,
+.footer .center-right,
+.footer .right {
+  text-align: left;
+}
+
+.footer .left img {
+  margin: -10px 0;
+}
+
+.footer .left {
+  font-family: Mulish;
+  font-size: 16px;
+  line-height: 32px;
+  color: #6E7191;
+}
+
+.footer .center-left {
+  box-sizing: border-box;
+}
+
+.footer .center-left p.explore {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #000000;
+}
+
+
+.footer .center-left p {
+  font-family: "Mulish";
+  font-size: 14px;
+  line-height: 18px;
+  color: #4E4B66;
+  margin-bottom: 15px;
+  margin: 15px 80px;
+
+}
+
+.footer .center-right {
+  font-family: 'Mulish';
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+.footer .center-right p {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.footer .center-right img {
+  margin: 10px 30px;
+}
+
+.footer .right {
+  font-family: "Mulish";
+  padding-left: 50px;
+  font-family: Mulish;
+  font-size: 14px;
+  color: #6E7191;
+}
+
+.footer .right .follow {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 0;
+}
+
+.footer .right p {
+  margin-left: 40px;
+  margin-top: -22px;
+}
+
+.fb, .ig, .tweeter, .yt {
+  margin-right: 20px;
+  margin: 30px 0;
+}
+
+.footer .right .fb p {
+  margin-top: -20px;
+}
+
+.footer .right .tweeter p {
+  margin-top: -18px;
+}
+
+
+
+
+
+
+
+
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
