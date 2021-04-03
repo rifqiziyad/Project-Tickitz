@@ -1,7 +1,7 @@
 # Project-Tickitz
 
-Sign In Page *
-Home Page *
+Sign In Page (done)
+Home Page (done)
 Movie Details Page --
 Profile Page --
 Ticket Result Page --
