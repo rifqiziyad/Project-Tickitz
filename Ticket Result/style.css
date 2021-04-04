@@ -22,7 +22,8 @@
 }
 
 .header-left img {
-  width: 150px;
+  height: 50px;
+  padding-top: 5px;
 }
 
 .header ul {
@@ -46,14 +47,15 @@
 .down {
   width: 10px;
   height: 5px;
-  margin: 0 15px;
+  margin-left: 15px;
   margin-top: 26px;
 }
 
 .search {
   width: 20px;
   height:20px;
-  margin-left: 45px;
+  margin: auto 50px;
+  margin-top: 20px;
 }
 
 .header-right .profil {
@@ -61,7 +63,6 @@
   height: 50px; 
   border-radius: 100%;
   margin: 5px 0;
-  margin-left: 60px;
 }
 
 /* HEADER */
