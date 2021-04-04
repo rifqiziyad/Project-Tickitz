@@ -3,8 +3,8 @@
 
 /* HEADER */
 .header {
+  width: 100%;
   font-family: 'Mulish', sans-serif;
-  display: flex;
   justify-content: space-between;
   padding: 15px 120px;
   box-sizing: border-box;
@@ -14,7 +14,8 @@
   line-height: 20px;
   color: #414141;
   box-shadow: 0px 10px 40px rgb(218, 209, 209);
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header .header-left {
