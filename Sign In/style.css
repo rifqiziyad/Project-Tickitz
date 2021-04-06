@@ -222,7 +222,24 @@ span {
 	color: #A0A3BD;
 }
 
+@media only screen and (max-width: 600px) {
+	.left {
+		display: none;
+	}
 
+	.rigth {
+		position: fixed;
+		margin: auto;
+	}
+
+	.show-pass {
+		display: none;
+	}
+
+	.input-email, .input-password, .submit {
+		width: 80%;
+	}
+}
 
 
 
