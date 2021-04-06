@@ -5,7 +5,6 @@
 
 main {
 	display: flex;
-	margin: auto;
 	box-sizing: border-box;
 }
 
@@ -14,13 +13,14 @@ main {
   flex: 1.7;
 	background: url(marvel.png) no-repeat;
 	background-size: 100%;
+	height: 666px;
 }
 
 .tickitz {
 	position: absolute;
-	width: 400px;
-	height: 150px;
-	top: -220px;
+	width: 500px;
+	height: 190px;
+	top: -120px;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -31,8 +31,8 @@ main {
 	position: absolute;
 	width: 408px;
 	height: 58px;
-	top: 0px;
-	left: 55px;
+	top: 100px;
+	left: 0;
 	right: 0;
 	bottom: 0;
 	margin: auto;
@@ -40,7 +40,7 @@ main {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 48px;
 	line-height: 58px;
 
 	letter-spacing: 0.003em;
@@ -51,7 +51,7 @@ main {
 .purple {
 	position: relative;
 	background: rgba(43, 21, 107, 0.8);
-	height: 768px;
+	height: 666px;
 }
 
 .rigth {
@@ -78,8 +78,6 @@ main {
 	margin-top: 15px;
 	margin: 15px 70px;
 	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 18px;
 	line-height: 22px;
 	letter-spacing: 0.007em;
@@ -103,7 +101,6 @@ main {
 
 .rigth .input-email {
 	margin-top: 10px;
-	/* margin: ; */
 	background: #FCFDFE;
 	border: 1px solid #DEDEDE;
 	box-sizing: border-box;
@@ -131,40 +128,44 @@ main {
 }
 
 .rigth .show-pass {
-	margin-top: 21px;
-	margin-left: -110px ;
+	margin-top: -38px;
+	margin-left: 420px;
 	position: absolute;
 	width: 20px;
 }
 
 .input-email, .input-password{
-	width: 350px;
-	height: 40px;
+	width: 400px;
 	padding: 20px;
 	margin: 0 70px;
 }
 
 .rigth .submit {
+	width: 400px;
+	padding: 20px;
 	margin-top: 30px;
 	margin-left: 70px;
-	padding: 15px 155px;
 	background: #5F2EEA;
 	border-radius: 16px;
 	border: none;
+	color: white;
+	font-family: 'Mulish', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 ::placeholder {
 	font-family: 'Mulish', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 20px;
 	letter-spacing: 0.75px;
 	color: #A0A3BD;
 }
 
 .forgot {
-	margin-top: 10px;
+	margin-top: 20px;
 	text-align: center;
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
@@ -181,7 +182,7 @@ span {
 }
 
 .or {
-	margin-top: 30px;
+	margin-top: 20px;
 	text-align: center;
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
@@ -192,20 +193,32 @@ span {
 .account {
 	display: flex;
 	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
 }
 
-.account img {
-	width: 40px;
-	margin: 0 85px;
+.google, .facebook {
+	display: flex;
+	margin: 0 20px;
+	border-radius: 8px;
+	padding: 10px 25px;
+	border: #ece8e8 solid 1px;
+}
+
+.google:hover, .facebook:hover, .input-email:hover, .input-password:hover, .submit:hover {
+	box-shadow: 0 0 10px rgba(163, 146, 146, 0.8);
+}
+
+.google img, .facebook img {
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
 }
 
 .account p {
-	margin-top: 10px;
-	margin-left: -70px;
 	font-family: 'Mulish', sans-serif;
 	font-weight: 600;
-	font-size: 18px;
-	line-height: 23px;
+	font-size: 16px;
 	color: #A0A3BD;
 }
 
@@ -262,4 +275,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
