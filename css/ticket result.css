@@ -336,7 +336,8 @@
   .box .right {
     position: absolute;
     top: 100px;
-    left: 160px;
+    left: 0;
+    right: 0;
   }
 
   /* NAV FOOTER */

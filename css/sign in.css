@@ -11,7 +11,7 @@ main {
 .left {
   position: relative;
   flex: 2;
-  background: url(marvel.png) no-repeat;
+  background: url(../image/marvel.png) no-repeat;
   background-size: 100%;
 }
 
@@ -197,7 +197,7 @@ span {
   }
 
   .rigth {
-    padding: 0 10px;
+    padding: 30px 10px;
   }
 }
 
