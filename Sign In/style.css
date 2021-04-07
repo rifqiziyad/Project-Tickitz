@@ -1,294 +1,328 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
 /* Style */
 
 main {
-	display: flex;
-	box-sizing: border-box;
+  display: flex;
+  box-sizing: border-box;
 }
 
 .left {
-	position: relative;
-  flex: 1.7;
-	background: url(marvel.png) no-repeat;
-	background-size: 100%;
-	height: 666px;
+  position: relative;
+  flex: 2;
+  background: url(marvel.png) no-repeat;
+  background-size: 100%;
 }
 
 .tickitz {
-	position: absolute;
-	width: 500px;
-	height: 190px;
-	top: -120px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
+  position: absolute;
+  width: 500px;
+  height: 190px;
+  top: -120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .left p {
-	position: absolute;
-	width: 408px;
-	height: 58px;
-	top: 100px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
+  position: absolute;
+  width: 408px;
+  height: 58px;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 48px;
-	line-height: 58px;
-
-	letter-spacing: 0.003em;
-
-	color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .purple {
-	position: relative;
-	background: rgba(43, 21, 107, 0.8);
-	height: 666px;
+  position: relative;
+  background: rgba(43, 21, 107, 0.8);
+  height: 666px;
 }
 
 .rigth {
   flex: 1;
-	position: relative;
-	box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px;
 }
 
 .rigth .sign {
-	margin-top: 40px;
-	margin-left: 70px;
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 48px;
-	line-height: 58px;
-
-	letter-spacing: 0.003em;
-
-	color: #121212;
+  margin-top: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #121212;
 }
 
 .rigth .text {
-	margin-top: 15px;
-	margin: 15px 70px;
-	font-family: 'Inter', sans-serif;
-	font-size: 18px;
-	line-height: 22px;
-	letter-spacing: 0.007em;
-
-	color: #AAAAAA;
-
+  margin-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #aaaaaa;
 }
 
 .rigth .email {
-	margin-top: 40px;
-	margin-left: 70px;
-	font-family: 'Mulish', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	display: flex;
-	align-items: center;
-	color: #4E4B66;
+  margin-top: 40px;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4e4b66;
 }
 
 .rigth .input-email {
-	margin-top: 10px;
-	background: #FCFDFE;
-	border: 1px solid #DEDEDE;
-	box-sizing: border-box;
-	border-radius: 16px;
+  margin-top: 10px;
+  background: #fcfdfe;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 16px;
 }
 
 .rigth .password {
-	margin-top: 20px;
-	margin-left: 70px;
-	font-family: 'Mulish', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	color: #4E4B66;
+  margin-top: 20px;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4e4b66;
 }
 
 .rigth .input-password {
-	margin-top: 10px;
-	
-	background: #FCFDFE;
-	border: 1px solid #DEDEDE;
-	box-sizing: border-box;
-	border-radius: 16px;
+  margin-top: 10px;
+  background: #fcfdfe;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 16px;
 }
 
-.rigth .show-pass {
-	margin-top: -38px;
-	margin-left: 420px;
-	position: absolute;
-	width: 20px;
-}
-
-.input-email, .input-password{
-	width: 400px;
-	padding: 20px;
-	margin: 0 70px;
+.input-email,
+.input-password {
+  padding: 20px;
 }
 
 .rigth .submit {
-	width: 400px;
-	padding: 20px;
-	margin-top: 30px;
-	margin-left: 70px;
-	background: #5F2EEA;
-	border-radius: 16px;
-	border: none;
-	color: white;
-	font-family: 'Mulish', sans-serif;
-	font-weight: bold;
-	font-size: 16px;
+  padding: 20px;
+  margin-top: 30px;
+  background: #5f2eea;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 ::placeholder {
-	font-family: 'Mulish', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 20px;
-	letter-spacing: 0.75px;
-	color: #A0A3BD;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.75px;
+  color: #a0a3bd;
 }
 
 .forgot {
-	margin-top: 20px;
-	text-align: center;
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 19px;
-	letter-spacing: 0.005em;
-
-	color: #8692A6;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8692a6;
 }
 
 span {
-	color: blueviolet;
+  color: blueviolet;
 }
 
 .or {
-	margin-top: 20px;
-	text-align: center;
-	font-family: 'Inter', sans-serif;
-	font-size: 16px;
-	line-height: 15px;
-	color: #AAAAAA;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 15px;
+  color: #aaaaaa;
+  text-align: center;
 }
 
 .account {
-	display: flex;
-	margin-top: 30px;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
-.google, .facebook {
-	display: flex;
-	margin: 0 20px;
-	border-radius: 8px;
-	padding: 10px 25px;
-	border: #ece8e8 solid 1px;
+.google,
+.facebook {
+  display: flex;
+  margin: 0 20px;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: #ece8e8 solid 1px;
 }
 
-.google:hover, .facebook:hover, .input-email:hover, .input-password:hover, .submit:hover {
-	box-shadow: 0 0 10px rgba(163, 146, 146, 0.8);
+.google:hover,
+.facebook:hover,
+.input-email:hover,
+.input-password:hover,
+.submit:hover {
+  box-shadow: 0 0 10px rgba(163, 146, 146, 0.8);
 }
 
-.google img, .facebook img {
-	width: 20px;
-	height: 20px;
-	margin-right: 20px;
+.google img,
+.facebook img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
 }
 
 .account p {
-	font-family: 'Mulish', sans-serif;
-	font-weight: 600;
-	font-size: 16px;
-	color: #A0A3BD;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #a0a3bd;
 }
 
 @media only screen and (max-width: 600px) {
-	.left {
-		display: none;
-	}
+  .left {
+    display: none;
+  }
 
-	.rigth {
-		position: fixed;
-		margin: auto;
-	}
-
-	.show-pass {
-		display: none;
-	}
-
-	.input-email, .input-password, .submit {
-		width: 80%;
-	}
+  .rigth {
+    padding: 0 10px;
+  }
 }
-
-
-
-
-
-
-
 
 /* reset css */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }

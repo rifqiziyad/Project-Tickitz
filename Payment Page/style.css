@@ -50,22 +50,22 @@ main {
 }
 
 .row h6 {
-  /* border:  solid black 1px; */
   font-family: Mulish;
   font-weight: bold;
   font-size: 24px;
-  color: #14142B;
+  color: #14142b;
   padding: 20px 0;
 }
 
-.two  {
+.two {
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(192, 192, 201);
   /* margin: 0 30px; */
 }
 
-.two .col-md-7, .two .col-md-4 {
+.two .col-md-7,
+.two .col-md-4 {
   background-color: white;
   padding: 30px;
   border-radius: 6px;
@@ -75,17 +75,21 @@ main {
   height: 360px;
 } */
 
-.date, .movie, .cinema, .number-ticket, .total {
+.date,
+.movie,
+.cinema,
+.number-ticket,
+.total {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  border-bottom: 1px solid #E6E6E6;;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .two h2 {
   font-family: Mulish;
   font-size: 20px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
 .two .col-md-7 p {
@@ -103,28 +107,27 @@ main {
   font-weight: 600;
   font-size: 24px;
   color: #000000;
-
 }
 
-.name, .mail {
-  border: 1px solid #DEDEDE;
+.name,
+.mail {
+  border: 1px solid #dedede;
   box-sizing: border-box;
   border-radius: 4px;
   padding: 20px;
-
 }
 
 .col-md-4 p {
   font-family: Mulish;
   font-size: 16px;
-  color: #696F79;
+  color: #696f79;
   padding: 10px 0;
   padding-top: 20px;
 }
 
 .phone-number {
   display: flex;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   margin-bottom: 30px;
   border-radius: 4px;
 }
@@ -134,7 +137,7 @@ main {
 }
 
 .phone-number .number {
-  border-right: 1px solid #DEDEDE;
+  border-right: 1px solid #dedede;
 }
 
 .warning {
@@ -155,21 +158,27 @@ main {
   margin-top: 30px;
 }
 
-.top, .down {
+.top,
+.down {
   display: flex;
   justify-content: space-evenly;
   margin: 30px 0;
 }
 
-.googlepay, .visa, .gopay, .paypal, .dana, .bca, .bri, .ovo {
+.googlepay,
+.visa,
+.gopay,
+.paypal,
+.dana,
+.bca,
+.bri,
+.ovo {
   text-align: center;
   padding-top: 10px;
   border-radius: 6px;
   border: black solid 1px;
   width: 150px;
 }
-
-
 
 /* FOOTER */
 
@@ -289,20 +298,37 @@ main {
 /* FOOTER */
 
 @media only screen and (max-width: 600px) {
-
-  .date, .movie, .cinema, .number-ticket, .col-md-4 h6, .col-md-7 h6 {
+  .date,
+  .movie,
+  .cinema,
+  .number-ticket,
+  .col-md-4 h6,
+  .col-md-7 h6 {
     display: none;
   }
 
-  .down, .top {
+  .down,
+  .top {
     flex-wrap: wrap;
   }
 
-  .googlepay, .visa, .gopay, .paypal, .dana, .bca, .bri, .ovo {
+  .top img,
+  .down img {
+    width: 80px;
+    height: 30px;
+  }
+
+  .googlepay,
+  .visa,
+  .gopay,
+  .paypal,
+  .dana,
+  .bca,
+  .bri,
+  .ovo {
     width: 40%;
     height: 50px;
     margin: 10px;
-
   }
 
   .location {
