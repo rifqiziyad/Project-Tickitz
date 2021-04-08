@@ -11,7 +11,7 @@
 
 ## About The Project
 
-#background_projek.
+Projek ini adalah tugas responsive website di bootcamp Arcademy
 
 ## Built With
 
