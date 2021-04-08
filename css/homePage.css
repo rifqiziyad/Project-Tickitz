@@ -43,16 +43,17 @@
 
 
 .content-1 {
-  width: 100%;
   display: flex;
   box-sizing: border-box;
+  padding: 50px 100px;
 }
 
 .content-left {
   flex: 1;
-  position: relative;
-  padding-left: 140px;
-  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content-left p {
@@ -66,102 +67,85 @@
 .content-left p.text-down {
   color: #5F2EEA;
   font-size: 55px;
-
 }
 
 .content-right {
   flex: 1;
-  position: relative;
-  margin-right: 130px;
+  display: flex;
 }
 
 .content-right img {
-  position: relative;
   width: 107px;
   height: 352.06px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px #A0A3BD;
-  margin: 0 10px;
-}
-
-.img-3 {
-  position: absolute;
-  top: 20px;
 }
 
 .img-2 {
-  position: absolute;
-  top: 60px;
+  margin-top: 40px;
+  margin-right: 30px;
 }
-
+ 
 .img-1 {
-  position: absolute;
-  top: 100px;
-  
+  margin-top: 80px;
+  margin-right: 30px;
 }
 
 .content-2 {
   box-sizing: border-box;
-  position: relative;
-  top: 200px;
-  width: 100%;
-  height: 700px;
+  padding: 50px 100px;
 }
 
 .content-2 .showing {
   display: flex; 
   justify-content: space-between;
-  margin: 20px 130px;
   font-family: 'Mulish', sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
   color: #5F2EEA;
+  padding: 20px 0;
+}
+
+.content-2 .showing .borderBottom {
+  border-bottom: 3px solid #5F2EEA;
+  padding: 0 50px;
+  margin: 0 20px;
+  margin-top: 10px;
 }
 
 .content-2 .showing .view {
   font-size: 20px;
 }
 
-.content-2 .showing .borderBottom {
-  position: absolute;
-  border-bottom: 3px solid #5F2EEA;
-  padding-bottom: 10px;
-  padding: 0 50px;
-  font-size: 0px;
-  margin-top: 40px;
-  margin-left: 30px;
-}
 
 .card-image1 {
-  margin: 60px 120px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .content-2 .card-image1 img {
   width: 159px;
   height: 244px;
   border-radius: 5px;
+  border: rgb(222, 228, 231) solid 1px;
+  padding: 20px;
+  background-color: rgb(250, 243, 243);
 }
 
 .content-3 {
   box-sizing: border-box;
-  position: relative;
-  width: 100%;
-  margin-top: -90px;
+  padding: 20px 100px;
 }
 
 .content-3 .upcoming {
   display: flex; 
   justify-content: space-between;
-  margin: 0 130px;
   font-family: 'Mulish', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 30px;
   color: black;
+  margin-bottom: 20px;
 }
 
 .content-3 .upcoming .view {
@@ -172,7 +156,6 @@
 .content-3 .month {
   display: flex;
   justify-content: space-between;
-  margin: 30px 130px;
 }
 
 .content-3 .month p {
@@ -199,14 +182,14 @@
 
 .content-4 {
   display: flex;
-  margin: 100px 120px;
+  padding: 30px 100px;
   justify-content: space-between;
 }
 
 .card {
-  width: 200px;
   text-align: center;
   box-sizing: border-box;
+  padding: 20px;
 }
 
 .content-4 .card img {
@@ -238,7 +221,6 @@
   font-size: 14px;
   color: #5F2EEA;
   padding: 10px 0px;
-  margin: 0 20px;
   border-radius: 4px;
 }
 
@@ -360,7 +342,6 @@
 
 .footer .center-right p {
   margin-bottom: 20px;
-  /* margin-left: 30px; */
 }
 
 .footer .center-right img {
@@ -369,7 +350,6 @@
 
 .footer .right {
   font-family: "Mulish";
-  /* padding-left: 50px; */
   font-family: Mulish;
   font-size: 14px;
   color: #6E7191;
@@ -410,6 +390,59 @@
 }
 
 /* FOOTER */
+
+
+
+@media only screen and (max-width: 600px) {
+  .card-image1, .month, .content-4 {
+    overflow: auto;
+  }
+  
+  .location {
+    padding: 0px;
+  }
+
+  .img-search {
+    margin-top: 8px;
+    padding: 10px 0;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer .center-right {
+    padding-bottom: 30px;
+  }
+
+  .footer .center-right .our-sponsor {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .footer .center-left {
+    text-align: left;
+  }
+
+  .footer .center-right .our-sponsor img {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+
+  .footer .left,
+  .footer .center-left,
+  .footer .center-right,
+  .footer .right {
+    padding: 30px 30px;
+  }
+}
 
 
 
