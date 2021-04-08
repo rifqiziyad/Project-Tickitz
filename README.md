@@ -1,4 +1,4 @@
-<h1 align='center'>Tickit Responsive Website</h1>
+<h1 align='center'>Tickitz Responsive Website</h1>
   <p align="center">
     <a href="link_deploy">View Demo</a>
     ·
