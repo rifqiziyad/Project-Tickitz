@@ -11,7 +11,7 @@
 
 ## About The Project
 
-Projek ini adalah tugas responsive website di bootcamp Arcademy
+Landing page only for buying cinema tickets
 
 ## Built With
 
